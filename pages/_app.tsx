@@ -6,12 +6,12 @@ import '../styles/globals.css';
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <React.Fragment>
-        <Head>
-          <title>My Best React App</title>
-          <meta name="description" content="Created by headsmanc0de" />
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-        <Component {...pageProps} />
+      <Head>
+        <title>My Best React App</title>
+        <meta name="description" content="Created by headsmanc0de" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Component {...pageProps} />
     </React.Fragment>
   );
 }
