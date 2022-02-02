@@ -1,7 +1,7 @@
 import { AppProps } from 'next/dist/shared/lib/router/router';
 import Head from 'next/head';
 import React from 'react';
-import '../styles/globals.css';
+import '../styles/globals.sass';
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
